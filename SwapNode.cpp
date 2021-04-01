@@ -30,30 +30,6 @@ void display(node p)
     }
 }
 
-// void swapNode(node head,int x,int y)
-// {
-//     if(x == y)
-//         return;
-//     node p = head, p1, x1;
-//     node q = head, q1, y1;
-//     while (p->next->data != x)
-//     {
-//         p = p->next;
-//     }
-//     p1 = p->next->next;
-//     x1 = p->next;
-//     while (q->next->data != y)
-//     {
-//         q = q->next;
-//     }
-//     q1 = q->next->next;
-//     y1 = q->next;
-//     p->next = y1;
-//     y1->next = p1;
-//     q->next = x1;
-//     x1->next = q1;  
-// }
-
 void swapNode(node *head_ref, int x, int y)
 {
     if(x == y)
